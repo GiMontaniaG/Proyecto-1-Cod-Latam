@@ -1,0 +1,72 @@
+.img-foto{
+    width: 350px;
+	height:350px;
+    border-radius: 100%;
+    padding: 2rem 2rem;
+}
+
+ul li{
+    display: inline-block;
+    justify-content: space-around;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+body{
+font-family: 'Lato', sans-serif;
+background-color: #fbfbfb;
+font-size: 16px;
+line-height: 1;
+padding-top: 20px;
+min-height: 80vh;
+}
+
+p{
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mis-redes{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.img-redes{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    background-color: #c433a7; /*Color de fondo del footer*/
+    color:  #fbfbfb; /*Color del texto*/
+    height: 80px; /*Alto de la sección*/
+    text-align: center; /*Texto alineado*/
+    padding: 40px;
+    margin-top: 40px;
+  }
+
+
+  /* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+}
